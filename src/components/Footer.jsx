@@ -12,7 +12,7 @@ const Footer = () => {
           {contactMe.map((tool, index) => (
             <tool.icon className='text-gray-500 hover:text-primary cursor-pointer' onClick={() => window.open(tool.link, '_blank')} />
           ))}
-          <Mail className='text-gray-500 hover:text-primary cursor-pointer'/>
+          <Mail className='text-gray-500 hover:text-primary cursor-pointer' onClick={() => window.location.href = 'mailto:rudraraj62000@gmail.com'}/>
         </div>
       </div>
     </div>
