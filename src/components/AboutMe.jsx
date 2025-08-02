@@ -4,8 +4,9 @@ import React, { useEffect, useState } from 'react'
 const AboutMe = () => {
 
   const [activeTab, setActiveTab] = useState("Education")
+  const [activeAchievementTab, setActiveAchievementTab] = useState("LeetCode");
 
-  const tabs = ['Education', 'Experience']
+  const tabs = ['Education', 'Experience', 'Achievements']
 
   return (
     <div className='px-2 sm:px-4 lg:px-24 xl:px-36 py-4 sm:py-4 lg:py-4 xl:py-4 relative flex flex-col gap-4 justify-start sm:justify-start items-start min-h-screen transition-all duration-300 bg-gray-50 backdrop-blur'>
@@ -76,6 +77,50 @@ const AboutMe = () => {
                   </div>
                 )
               }
+
+              {
+                activeTab === 'Achievements' && (
+                  <div className='space-y-4'>
+                    
+                    {/* Buttons for LeetCode / GitHub */}
+                    <div className="flex gap-2 mb-2">
+                      {['LeetCode', 'GitHub'].map((tab) => (
+                        <button
+                          key={tab}
+                          onClick={() => setActiveAchievementTab(tab)}
+                          className={`px-3 py-1 rounded-full text-sm font-medium transition-all duration-200 ${
+                            activeAchievementTab === tab
+                              ? 'bg-red-800 text-white shadow'
+                              : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                          }`}
+                        >
+                          {tab}
+                        </button>
+                      ))}
+                    </div>
+
+                    {/* Conditionally Show Stats */}
+                    <div className="border-gray-200">
+                      {activeAchievementTab === 'LeetCode' && (
+                        <img
+                          src="https://leetcard.jacoblin.cool/heel_r3?ext=contest&theme=dark"
+                          alt="LeetCode Stats"
+                          className="rounded-lg shadow"
+                        />
+                      )}
+
+                      {activeAchievementTab === 'GitHub' && (
+                        <img
+                          src={`https://github-readme-stats.vercel.app/api?username=heelR3&show_icons=true&theme=dark`}
+                          alt="GitHub Stats"
+                          className="rounded-lg shadow"
+                        />
+                      )}
+                    </div>
+                  </div>
+                )
+              }
+
             </div>
           </div>
         </div>
