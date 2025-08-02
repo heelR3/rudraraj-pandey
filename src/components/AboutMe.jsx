@@ -88,7 +88,7 @@ const AboutMe = () => {
                         <button
                           key={tab}
                           onClick={() => setActiveAchievementTab(tab)}
-                          className={`px-3 py-1 rounded-full text-sm font-medium transition-all duration-200 ${
+                          className={`cursor-pointer px-3 py-1 rounded-full text-sm font-medium transition-all duration-200 ${
                             activeAchievementTab === tab
                               ? 'bg-red-800 text-white shadow'
                               : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
