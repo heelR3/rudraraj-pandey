@@ -1,10 +1,19 @@
 import { Github, GithubIcon, Instagram, Link, Linkedin, SquareArrowOutUpRight, SquarePen, Twitter } from "lucide-react";
+import project0 from './project0.png'
 import project1 from './project1.png'
 import project2 from './project2.png'
 import project3 from './project3.png'
 import project4 from './project4.jpg'
 
 export const projects = [
+    {
+        title: 'Real-Time Chat Application',
+        description: 'Full-stack chat application built with ASP.NET Core Web API, Angular, SignalR, and SQL Server. Features include real-time messaging, private chats, user presence tracking, and secure JWT authentication. Deployed on Azure with CI/CD pipelines.',
+        Icon: SquareArrowOutUpRight,
+        deployLink: 'https://chat-app-ui.azurewebsites.net/',
+        githubLink: 'https://github.com/heelR3/dotnet-chatapp.git',
+        img: project0
+    },
     {
         title: 'AI Saas App',
         description: 'AI-powered SaaS platform integrating multiple tools like article writer, blog title generator, resume reviewer, image generator, and object/background remover.',
