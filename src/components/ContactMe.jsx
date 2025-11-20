@@ -32,7 +32,7 @@ const ContactMe = () => {
 
           <button className='mt-8 flex gap-2 w-full bg-primary/90 border-2 border-gray-500 justify-center p-2 rounded-lg text-black font-bold cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-xl' onClick={() => {
             const link = document.createElement('a');
-            link.href = '/resume.pdf'; 
+            link.href = '/Rudraraj_Pandey_Resume.pdf'; 
             link.download = 'Rudraraj_Pandey_Resume.pdf';
             link.click();
           }} > <ArrowDownToLine className='w-4 h-6 text-black font-extrabold' /> Download Resume </button>
