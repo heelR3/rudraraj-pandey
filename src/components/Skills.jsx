@@ -4,9 +4,9 @@ import React from 'react'
 const Skills = () => {
 
     const skillData = {
-        "Programming Languages": ["C/C++", "Java", "HTML", "CSS", "JavaScript", "SQL"],
-        "Frameworks & Technologies": ["React", "Node.js", "Next.js", "Express", "MongoDB", "PostgreSQL", "NeonDB", "Tailwind CSS", "STL" ],
-        "Tools & Platforms": ["Git", "GitHub", "Postman", "VS Code", "Linux", "TexStudio"],
+        "Programming Languages": ["C/C++", "Java", "C#", "HTML", "CSS", "JavaScript", "SQL"],
+        "Frameworks & Technologies": [".NET", "React", "Node.js", "Next.js", "Express", "SQLServer", "MongoDB", "PostgreSQL", "NeonDB", "Tailwind CSS", "STL" ],
+        "Tools & Platforms": ["Azure", "Git", "GitHub", "Postman", "VS Code", "Linux", "TexStudio"],
         "Core Competencies": ["Problem Solving", "System Design", "API Development", "OOPs", "DSA"],
     };
 
