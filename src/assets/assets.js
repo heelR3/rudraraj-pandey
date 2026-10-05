@@ -14,7 +14,7 @@ export const projects = [
         Icon: SquareArrowOutUpRight,
         deployLink: 'https://github.com/heelR3/SauceDemo-Automation-Testing.git',
         githubLink: 'https://github.com/heelR3/SauceDemo-Automation-Testing.git',
-        img: project6
+        img: project5
     },
     {
         title: 'CinemaTime – ASP.NET Core MVC eCommerce Application',
@@ -22,7 +22,7 @@ export const projects = [
         Icon: SquareArrowOutUpRight,
         deployLink: 'https://cinematime.azurewebsites.net/',
         githubLink: 'https://github.com/heelR3/CinemaTime.git',
-        img: project5
+        img: project6
     },
     {
         title: 'Real-Time Chat Application',
