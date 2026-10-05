@@ -21,8 +21,7 @@ const AboutMe = () => {
         {/* Left Section - About */}
         <div className="flex-1 dark:bg-gray-900 p-2">
           <p className="text-medium font-light text-gray-700 ">
-            A Software Engineer at Wipro with experience in .NET development and Software Testing Automation using Java and Selenium. 
-            2025 graduated from Bharati Vidyapeeth Deemed University College of Engineering Pune.
+            I’m a Developer L1 at Wipro with experience in .NET development and Software Testing Automation using Java and Selenium.
             <br /><br />
             I have developed full stack e- commerce applications using .NET Core MVC and performed end-to-end testing on web applications using Java, Selenium, TestNG, Cucumber BDD and data driven testing.
           </p>
