@@ -15,7 +15,7 @@ const Hero = ({ onContactClick, onProjectClick }) => {
           Hi, I'm <span className="text-primary ">Rudraraj Pandey</span>
         </h1>
         <p className="text-lg sm:text-medium lg:text-lg font-medium text-gray-700 max-w-xl">
-          A passionate full-stack developer specializing in React, Next.js, and Node.js. Building elegant solutions for complex problems.
+          A passionate full-stack developer specializing in .NET Core MVC. Building elegant solutions for complex problems.
         </p>
       </div>
       <div className='flex flex-col sm:flex-row w-full'>
