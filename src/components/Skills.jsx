@@ -5,8 +5,8 @@ const Skills = () => {
 
     const skillData = {
         "Programming Languages": ["C/C++", "Java", "C#", "HTML", "CSS", "JavaScript", "SQL"],
-        "Frameworks & Technologies": [".NET", "React", "Node.js", "Next.js", "Express", "SQLServer", "MongoDB", "PostgreSQL", "NeonDB", "Tailwind CSS", "STL" ],
-        "Tools & Platforms": ["Azure", "Git", "GitHub", "Postman", "VS Code", "Linux", "TexStudio"],
+        "Frameworks & Technologies": [".NET", "React", "Selenium", "Cucumber BDD", "TestNG", "SQLServer", "MongoDB", "PostgreSQL", "NeonDB", "Tailwind CSS", "STL" ],
+        "Tools & Platforms": ["Azure", "Git", "GitHub", "Jenkins", "Jira" "Postman", "VS Code", "Linux", "TexStudio"],
         "Core Competencies": ["Problem Solving", "System Design", "API Development", "OOPs", "DSA"],
     };
 
