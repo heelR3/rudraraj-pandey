@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 const AboutMe = () => {
 
-  const [activeTab, setActiveTab] = useState("Education")
+  const [activeTab, setActiveTab] = useState("Experience")
   const [activeAchievementTab, setActiveAchievementTab] = useState("LeetCode");
 
   const tabs = ['Education', 'Experience', 'Achievements']
