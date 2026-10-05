@@ -21,10 +21,10 @@ const AboutMe = () => {
         {/* Left Section - About */}
         <div className="flex-1 dark:bg-gray-900 p-2">
           <p className="text-medium font-light text-gray-700 ">
-            A Full Stack Developer with experience in building web applications using React, Next.js, Node.js, and JavaScript. 
-            Recently graduated from Bharati Vidyapeeth Deemed University College of Engineering Pune.
+            A Software Engineer at Wipro with experience in .NET development and Software Testing Automation using Java and Selenium. 
+            2025 graduated from Bharati Vidyapeeth Deemed University College of Engineering Pune.
             <br /><br />
-            I've developed and successfully deployed various Web Application using MERN stack and GenAI, and gained practical knowledge by integrating IoT projects.
+            I have developed full stack e- commerce applications using .NET Core MVC and performed end-to-end testing on web applications using Java, Selenium, TestNG, Cucumber BDD and data driven testing.
           </p>
 
           <div className="pt-2 flex gap-2">
