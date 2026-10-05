@@ -7,6 +7,22 @@ import project4 from './project4.jpg'
 
 export const projects = [
     {
+        title: 'SauceDemo Automation Testing Framework',
+        description: 'This project is an end-to-end web automation testing framework designed for the SauceDemo application using Selenium WebDriver, Java, Maven, TestNG, Cucumber BDD, and Page Object Model (POM). The framework supports automated execution of Login, Inventory, Cart, Checkout, Navigation, and Logout functionalities with Allure/Extent/Cucumber reportings and screenshot capture.',
+        Icon: SquareArrowOutUpRight,
+        deployLink: 'https://github.com/heelR3/SauceDemo-Automation-Testing.git',
+        githubLink: 'https://github.com/heelR3/SauceDemo-Automation-Testing.git',
+        img: project6
+    },
+    {
+        title: 'CinemaTime – ASP.NET Core MVC eCommerce Application',
+        description: 'Full-stack eCommerce web application built using ASP.NET Core MVC and Entity Framework Core. The application allows users to browse movies, add items to a shopping cart, place orders, and make payments using PayPal.',
+        Icon: SquareArrowOutUpRight,
+        deployLink: 'https://cinematime.azurewebsites.net/',
+        githubLink: 'https://github.com/heelR3/CinemaTime.git',
+        img: project5
+    },
+    {
         title: 'Real-Time Chat Application',
         description: 'Full-stack chat application built with ASP.NET Core Web API, Angular, SignalR, and SQL Server. Features include real-time messaging, private chats, user presence tracking, and secure JWT authentication. Deployed on Azure with CI/CD pipelines.',
         Icon: SquareArrowOutUpRight,
