@@ -6,7 +6,7 @@ const AboutMe = () => {
   const [activeTab, setActiveTab] = useState("Experience")
   const [activeAchievementTab, setActiveAchievementTab] = useState("LeetCode");
 
-  const tabs = ['Education', 'Experience', 'Achievements']
+  const tabs = ['Experience', 'Education', 'Achievements']
 
   return (
     <div className='px-2 sm:px-4 lg:px-24 xl:px-36 py-4 sm:py-4 lg:py-4 xl:py-4 relative flex flex-col gap-4 justify-start sm:justify-start items-start min-h-screen transition-all duration-300 bg-gray-50 backdrop-blur'>
