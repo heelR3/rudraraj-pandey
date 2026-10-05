@@ -56,6 +56,18 @@ const AboutMe = () => {
             
             <div className=" border-gray-200">
               {
+                activeTab === 'Experience' && (
+                  <div className='space-y-2' >
+                    
+                    <h3 className="flex gap-2 text-lg font-medium text-red-800"> Developer L1</h3>
+                    <p className="text-sm text-gray-700 ">Wipro Limited - 2026</p>
+                    <h3 className="flex gap-2 text-lg font-medium text-red-800"> IoT Intern</h3>
+                    <p className="text-sm text-gray-700 ">Bharat ACT - 2024</p>
+                    
+                  </div>
+                )
+              }
+              {
                 activeTab === 'Education' && (
                   <div className='space-y-2' >
                     <h3 className="flex gap-2 text-lg font-medium text-red-800">  <Notebook className='w-4 h-7'/> Bharati Vidyapeeth University</h3>
@@ -65,19 +77,6 @@ const AboutMe = () => {
                   </div>
                 )
               }
-      
-              {
-                activeTab === 'Experience' && (
-                  <div className='space-y-2' >
-                    <h3 className="flex gap-2 text-lg font-medium text-red-800"> IoT Intern</h3>
-                    <p className="text-sm text-gray-700 ">Bharat ACT - 2024</p>
-                    <h3 className="flex gap-2 text-lg font-medium text-red-800"> Subject Matter Expert</h3>
-                    <p className="text-sm text-gray-700 ">Chegg India - 2023</p>
-                    
-                  </div>
-                )
-              }
-
               {
                 activeTab === 'Achievements' && (
                   <div className='space-y-4'>
